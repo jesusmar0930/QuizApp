@@ -1,0 +1,14 @@
+.options-container {
+    margin-top: 20px;
+}
+
+.option-button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
