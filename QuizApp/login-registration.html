@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Login Form -->
     <div class="login-container">
         <h2>Login</h2>
         <form id="login-form">
@@ -19,11 +20,12 @@
         </div>
     </div>
 
+    <!-- Registration Form -->
     <div class="registration-container" style="display: none;">
         <h2>Registration</h2>
         <form id="registration-form">
             <input type="text" id="reg-username" name="reg-username" placeholder="Username" required>
-            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
             <input type="password" id="reg-password" name="reg-password" placeholder="Password" required>
             <button type="submit">Register</button>
         </form>
@@ -31,7 +33,6 @@
             <p>Already have an account? <a href="#" id="login-link">Login here</a></p>
         </div>
     </div>
-
     <script src="js/login-registration.js"></script>
 </body>
 </html>

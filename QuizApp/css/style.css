@@ -35,4 +35,11 @@
 
 .register-link,
 .login-link {
-    text
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a,
+.login-link a {
+    color: #007bff;
+}
