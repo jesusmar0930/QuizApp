@@ -17,6 +17,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 /* Center align the Login and Registration titles */
@@ -31,21 +32,23 @@ body {
 .registration-container input[type="text"],
 .registration-container input[type="email"],
 .registration-container input[type="password"] {
-    width: 100%;
+    width: calc(100% - 20px); /* Subtracting padding */
     margin-bottom: 10px;
     padding: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 /* Styles for the buttons */
 .login-container button,
 .registration-container button {
-    width: 100%;
+    width: calc(100% - 20px); /* Subtracting padding */
     padding: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 /* Styles for the "Don't have an account?" and "Already have an account?" links */
