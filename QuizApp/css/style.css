@@ -1,3 +1,15 @@
+/* Default font for the body */
+body {
+    font-family: sans-serif;
+}
+
+/* Custom font for the Login and Registration titles */
+.login-title,
+.registration-title {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/* Styles for the login and registration containers */
 .login-container,
 .registration-container {
     width: 300px;
@@ -7,11 +19,13 @@
     border-radius: 5px;
 }
 
+/* Center align the Login and Registration titles */
 .login-container h2,
 .registration-container h2 {
     text-align: center;
 }
 
+/* Styles for the input fields */
 .login-container input[type="text"],
 .login-container input[type="password"],
 .registration-container input[type="text"],
@@ -22,6 +36,7 @@
     padding: 10px;
 }
 
+/* Styles for the buttons */
 .login-container button,
 .registration-container button {
     width: 100%;
@@ -33,6 +48,7 @@
     cursor: pointer;
 }
 
+/* Styles for the "Don't have an account?" and "Already have an account?" links */
 .register-link,
 .login-link {
     text-align: center;
