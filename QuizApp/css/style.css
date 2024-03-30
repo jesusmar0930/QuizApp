@@ -2,18 +2,22 @@
 body {
     font-family: sans-serif;
     background-color: #212121; /* Change background color */
+    color: #fff; /* Set default text color to white */
 }
 
 /* Custom font for the Login and Registration titles */
 .login-title,
-.registration-title {
+.registration-title,
+.quiz-title,
+.custom-font {
     font-family: 'Archivo Black', sans-serif;
     color: #fff; /* Change text color */
 }
 
 /* Styles for the login and registration containers */
 .login-container,
-.registration-container {
+.registration-container,
+.quiz-container {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
@@ -26,7 +30,8 @@ body {
 
 /* Center align the Login and Registration titles */
 .login-container h2,
-.registration-container h2 {
+.registration-container h2,
+.quiz-container h2 {
     text-align: center;
 }
 
@@ -44,7 +49,8 @@ body {
 
 /* Styles for the buttons */
 .login-container button,
-.registration-container button {
+.registration-container button,
+.quiz-container button {
     width: calc(100% - 20px); /* Subtracting padding */
     padding: 10px;
     background-color: #c01a1f; /* Change button background color */
@@ -68,10 +74,5 @@ body {
 }
 
 .quiz-title {
-    color: white;
-}
-
-.custom-font {
-    font-family: 'Archivo Black', sans-serif;
     color: white;
 }
