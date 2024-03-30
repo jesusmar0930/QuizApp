@@ -1,14 +1,38 @@
-.options-container {
-    margin-top: 20px;
+.login-container,
+.registration-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.option-button {
-    display: block;
-    margin-bottom: 10px;
+.login-container h2,
+.registration-container h2 {
+    text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
     width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
-#feedback {
-    margin-top: 20px;
-    font-weight: bold;
+.login-container button,
+.registration-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.register-link,
+.login-link {
+    text
