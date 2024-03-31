@@ -26,6 +26,9 @@ body {
     box-sizing: border-box; /* Ensure padding and border are included in the width */
     background-color: #212121; /* Change background color */
     color: #fff; /* Change text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Center align the Login and Registration titles */
@@ -33,6 +36,7 @@ body {
 .registration-container h2,
 .quiz-container h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Styles for the input fields */
@@ -59,6 +63,39 @@ body {
     border-radius: 5px;
     cursor: pointer;
     box-sizing: border-box; /* Ensure padding is included in the width */
+}
+/* Styles for the buttons,containers of the quiz */
+#quiz-selection {
+    text-align: center;
+    flex-direction: column;
+}
+.quiz-container {
+    text-align: center;
+    margin-top: 10px;
+}
+.quiz-select-btn {
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 1px;
+}
+
+.options-container {
+    margin-top: 10px;
+}
+
+.option-button {
+    margin: 5px;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#question{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* Styles for the "Don't have an account?" and "Already have an account?" links */
