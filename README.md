@@ -6,7 +6,9 @@ web application.
 
 # Authors
 Jesus Martinez
-Michael Rojas  Michaels.rojas13@csu.fullerton.edu
+
+Michael Rojas:  **Michaels.rojas13@csu.fullerton.edu**
+
 Hailey Verdone
 
 # Deliverables 
