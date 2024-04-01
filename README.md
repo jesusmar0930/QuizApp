@@ -16,6 +16,7 @@ Hailey Verdone
 
 # How to Run
 1.) **Open the *login-registration.html* file in a web browser.**
+
 2.) **You will see a login form with fields for username and password.** 
   - If you don't have an account, you can click on the *Register here* link to switch to the registration form.
 
@@ -26,9 +27,14 @@ Hailey Verdone
   - Upon successful login, you will be redirected to the quiz.html page.
 
 5.) **On the quiz page, you will see a title *Select a Quiz* with buttons for different quiz categories such as General Knowledge, Pop Culture, Science and Nature, and History.**
+
 6.) **Click on any quiz category button to start the quiz. This will display the first question along with multiple-choice options.**
+
 7.) **Select an option by clicking on the corresponding button.**
+
 8.) **After selecting an option, you will receive immediate feedback on whether your answer was correct or not.**
+
 9.) **Continue answering questions until you reach the end of the quiz.**
+
 10.) **Once you've answered all questions, you will see your final score displayed along with a button to restart the quiz.**
   - You can click the *Restart Quiz* button to start the quiz again from the beginning!**
